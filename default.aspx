@@ -29,8 +29,8 @@
 					<br />
 					My name is Gabriel.
 				</h1>
-				<p class="lead">I'm a developer that specializes in both <a class="homeLink" href="projects/programming">programming</a> and <a class="homeLink" href="projects/design">design</a>.</p>
-				<a class="btn btn-primary" href="/projects/featured" role="button">View Featured Projects</a>
+				<p class="lead">I'm a developer that specializes in both <a class="homeLink" href="work/programming">programming</a> and <a class="homeLink" href="work/design">design</a>.</p>
+				<a class="btn btn-primary" href="/work/featured" role="button">View Featured Work</a>
 			</div>
 		</div>
 			

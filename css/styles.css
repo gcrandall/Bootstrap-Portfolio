@@ -13,8 +13,13 @@ body {
 	background-color: #212121 !important;
 	background: linear-gradient(to bottom, rgba(1,87,155,0) 0%,rgba(1,87,155,0.15) 100%), #212121 !important;
 	
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/clouds.jpg') !important;
+/*
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/clouds.jpg') !important;
 	background-blend-mode: darken, normal !important;
+*/
+	
+	background: url('/images/gradient.svg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/clouds.jpg') !important;
+	background-blend-mode: color, darken, normal !important;
 	
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
@@ -92,7 +97,7 @@ a, .btn {
 
 .dropdown-item.active {
 /*	background-color: #343a40;*/
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(256,256,256,0);
 	color: #FFFFFF;
 }
 
@@ -138,7 +143,7 @@ a, .btn {
 
 .aboutPhoto {
 	width: 75%;
-	max-width: 300px;
+	max-width: 250px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	border-radius: 50%;
 	overflow: hidden;
@@ -175,4 +180,87 @@ a, .btn {
 
 .skillCol {
 	padding: 5px 15px;
+}
+
+/*******************************
+	About Page
+*******************************/
+
+.projectsJumbotron {
+	margin-top:56px;
+}
+
+.projectsContainer {
+	margin-top: 0;
+}
+
+.projectBlockCol {
+	height: auto;
+	padding: 10px;
+}
+
+.projectBlock {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	height: auto;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.projectBlock img {
+	width: 100%;
+	z-index: 0;
+}
+
+.projectBlockText {
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	color: #FFFFFF;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+	background-blend-mode: darken;
+}
+
+.projectBlockText h2 {
+	position: absolute;
+	bottom:0;
+	left:0;
+	padding: 20px;
+	line-height: 1;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.projectDescription {
+	line-height: 1.5;
+}
+
+.projectCol {
+	padding: 50px;
+	text-align: center;
+}
+
+.projectPhoto {
+	width: 100%;
+}
+
+.photographyCol {
+	padding: 10px;
+}
+
+.photographyCol a {
+	display: block;
+	height: auto;
+	width: 100%;
+	text-decoration: none;
+}
+
+.photographyCol a img {
+	width: 100%;
 }

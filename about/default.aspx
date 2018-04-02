@@ -32,7 +32,7 @@
 				</div>
 				<div class="col-12 col-md-8 aboutInfo">
 					<h6>Bio</h6>
-					I am a Computer Science and GIMM (<a href="https://cid.boisestate.edu/gimm" target="_blank">https://cid.boisestate.edu/gimm</a>) student at Boise State University with 3+ years of experience in graphic/web design. I enjoy new challenges and learning new and interesting technology.
+					I am a Computer Science and GIMM (<a href="https://cid.boisestate.edu/gimm" target="_blank">https://cid.boisestate.edu/gimm</a>) student at Boise State University with 3+ years of experience in graphic/web design. I enjoy tackling unique challenges as well as learning new and interesting technology.
 					<br /><br />
 					
 					<h6>Skills</h6>
